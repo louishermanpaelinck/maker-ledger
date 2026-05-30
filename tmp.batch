@@ -1,0 +1,13 @@
+cd ~/maker-ledger
+
+# 1. Make sure you're on main branch
+git checkout main
+
+# 2. Add all your current (fixed) files
+git add .
+
+# 3. Commit the fixed version
+git commit -m "Clean Android project structure with Compose UI" --allow-empty
+
+# 4. Force push (this overwrites the old junk on GitHub)
+git push origin main --force
