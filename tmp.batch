@@ -1,4 +1,6 @@
 cd ~/maker-ledger
 
-# 1. Build de APK (debug version)
-./gradlew assembleDebug
+# Alles toevoegen en pushen
+git add .
+git commit -m "Final Maker Ledger app setup" --allow-empty
+git push origin main --force
